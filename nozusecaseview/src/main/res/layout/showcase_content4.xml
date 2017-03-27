@@ -66,22 +66,25 @@
                     android:paddingLeft="5dp"
                     android:textSize="16dp" />
 
-                <TextView
-                    android:textStyle="bold"
-                    android:id="@+id/tvDismiss"
-                    android:background="?android:attr/selectableItemBackground"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:clickable="true"
-                    android:paddingBottom="10dp"
-                    android:paddingTop="10dp"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:textColor="#68C0B2"
-                    android:textSize="17dp"
-                    android:visibility="gone" />
             </LinearLayout>
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:id="@+id/tvDismiss"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:clickable="true"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#68C0B2"
+                android:text="OK"
+                android:textSize="17dp"
+                android:visibility="gone" />
         </RelativeLayout>
         <RelativeLayout
             android:visibility="visible"
