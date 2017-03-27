@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.noz.sample.usecaseview.MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <Button
+           android:text="Demo 1"
+           android:textAllCaps="false"
+           android:id="@+id/btnDemo1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:text="Demo 2"
+           android:textAllCaps="false"
+           android:id="@+id/btnDemo2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/btnDemo3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Demo 3"
+           android:textAllCaps="false" />
+
+       <Button
+           android:text="Demo 4"
+           android:textAllCaps="false"
+           android:id="@+id/btnDemo4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:textAllCaps="false"
+           android:text="Reset All"
+           android:id="@+id/btnReset"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+</RelativeLayout>
